@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  gray;
+  color: white;
+}
+*{
+  margin-top: 1.5px;
+}
+button{
+
+  border-bottom-left-radius: 10px ;
+   border-bottom-right-radius: 10px ;
+   
+}
+
+.main-box {
+  width: 25%;
+  box-shadow: 0 0 5px gray, inset 0 0 10px black;
+  height: 95vh;
+  display: flex;
+  
+}
+.main-box> .one-box{
+    width: 95%;
+    margin-left: 2.3%;
+    border: 1px solid black;
+    margin-top: 6px;
+    height: 92vh;
+    background: linear-gradient(20deg, rgb(45 ,44 ,58) 10% , rgb(58 , 52 ,52) 40%);
+}
+.main-box> .one-box> .two-box{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+      margin-left: 2.5%;
+}
+.main-box> .one-box> .two-box> span{
+  display: flex;
+  justify-content: space-around;
+}
+.main-box> .one-box> .two-box> span> small{
+  font-size: 10px;
+}
+.main-box> .one-box> .two-box> span> button{
+  width: 80px;
+  margin-left: 2px;
+  height: 28px;
+  padding: 1px 3px;
+  background-color: rgba(59, 55, 55);
+  color: white;
+  outline: none ;
+  
+}
+.main-box> .one-box> .two-box> span> button:hover{
+  transform: scale(0.95);
+
+}
+.main-box> .one-box> .box-three{
+    display: flex;
+    flex-direction: column;
+     width: 95%;
+      margin-left: 2.5%;
+      margin-top: 3px;
+   
+}
+.main-box> .one-box> .box-three> span{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-box> .one-box> .box-three> span> button{
+  width: 80px;
+  margin-left: 2px;
+  height: 33px;
+  margin-top: 3px;
+  background-color: black;
+  color: white;
+  outline: none;
+  
+}
+.main-box> .one-box> .box-three> span> button:hover{
+  transform: scale(0.95);
+
+}
+.main-box> .one-box> .box-three> span> small{
+  font-size: 10px;
+}
+.main-box> .one-box>.box-one-top{
+   width: 95%;
+    margin-left: 2.5%;
+    border: 1px solid black;
+   
+    height: 29vh;
+}
+.box-one-middle{
+   width: 95%;
+    margin-left: 2.5%;
+    border: 1px solid black;
+  box-shadow: inset 0 0 8px gray;
+    height: 15vh;
+    margin-top: 4px;
+}
+.box-one-middle> input[type=text]{
+   width: 95%;
+    margin-left: 2.5%;
+    margin-top: 5px ;
+    border: none;
+  box-shadow: inset 0 0 8px black;
+    height: 13vh;
+}
+.box-one-text{
+  display: flex;
+  font-size: 13px;
+  margin-top: 4px;
+  justify-content: space-around;
+}
+.box-one-bottom{
+   width: 95%;
+    margin-left: 2.5%;
+     display: flex;
+     justify-content: space-around;
+}
+.box-one-bottom>button{
+  width: 100px;
+  margin-left: 2px;
+  margin-top: 6px;
+  height: 28px;
+  background-color: rgba(82, 19, 82);
+  color: white;
+  outline: none ;
+  
+
+}
+.box-one-bottom>button:hover{
+  transform: scale(0.95);
+}
+@media (max-width: 810px) {
+  .main-box{
+    width: 100%;
+  }
+  
+}
